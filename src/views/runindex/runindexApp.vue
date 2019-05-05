@@ -8,11 +8,11 @@
       <h2>2019新通教育Forever Young城市欢乐跑</h2>
       <h2>- 诚邀您参与 -</h2>
       <p>活动时间：2019年5月26日 8:00-11:00</p>
-      <p>报名时间：即日起至2019年5月5日</p>
+      <p>报名时间：即日起至2019年5月12日</p>
       <a class="subbtn" href="runregister.html">立即报名</a>
       <div class="foottext">
-         <a href="agreement.html">活动规则</a>
-        <a href>公司打卡率</a>
+         <a href="agreement.html">活动规则</a>punchrate
+         <a href="punchrate.html">公司打卡率</a>
       </div>
     </div>
   </div>
@@ -20,8 +20,6 @@
 <script>
 import Lib from "assets/js/Lib";
 require("assets/css/runindex.css");
-const longbg = require("assets/images/longbg.jpg");
-const shortbg = require("assets/images/shortbg.jpg");
 const huanlepaologo = require("assets/images/huanlepaologo.png");
 export default {
   components: {},
@@ -32,16 +30,7 @@ export default {
   },
   methods: {},
   mounted() {
-    if (screen.height / screen.width > 2) {
-      //用长图片给body做背景
-      document.body.style.background =
-        "url('" + longbg + "') no-repeat right center";
-      document.body.style.backgroundSize = "100% 100%";
-    } else {
-      document.body.style.background =
-        "url('" + shortbg + "') no-repeat right center";
-      document.body.style.backgroundSize = "100% 100%";
-    }
+ 
   }
 };
 </script>

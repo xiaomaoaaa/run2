@@ -54,8 +54,7 @@ body {
 .unit:nth-of-type(29) .number {background: url(../images/img_rank_29.png) no-repeat center;background-size: 0.46rem 0.6rem;} 
 .unit:nth-of-type(30) .number {background: url(../images/img_rank_30.png) no-repeat center;background-size: 0.46rem 0.6rem;} 
 .unit:nth-of-type(31) .number {background: url(../images/img_rank_31.png) no-repeat center;background-size: 0.46rem 0.6rem;} 
-.unit:nth-of-type(32) .number {background: url(../images/img_rank_32.png) no-repeat center;background-size: 0.46rem 0.6rem;} 
-.unit:nth-of-type(33) .number {background: url(../images/img_rank_33.png) no-repeat center;background-size: 0.46rem 0.6rem;} 
+
 .unit .borderbox,.unit2 .borderbox{width: 6.28rem;float: left;border-bottom:1px solid #dfdfdf;height: 1.36rem;padding: 0.3rem 0;}
 .unit:last-of-type .borderbox,.unit2:last-of-type .borderbox{border-bottom: none;}
 .unit .borderbox>div,.unit2 .borderbox>div{float: left;}

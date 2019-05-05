@@ -24,11 +24,11 @@ body {
 	
 }
 .form {
-    width: 6.54rem;
+    width: 6rem;
     background: rgba(255, 255, 255, 0.9);
     box-shadow: 0 0.03rem 0.15rem 0 rgba(25, 25, 47, 0.3);
     margin: 0 auto 0;
-	padding: 0.34rem 0.57rem 0.3rem;
+	padding: 0.34rem 0.5rem 0.3rem;
 	
 }
 .form h2,.form p{
@@ -41,10 +41,12 @@ body {
 	margin-bottom: 0.2rem;
 }
 .form p:nth-of-type(1){
-	padding: 0.13rem 0 0.26rem 0;
+	padding: 0.13rem 0 0.26rem 0.2rem;
 	text-align: left;
 }
-
+.form p:nth-of-type(2){
+	padding-left:0.2rem
+}
 .logo{
 	height: 0.48rem;
     width: 100%;
@@ -65,7 +67,7 @@ body {
 }
 .subbtn {
     display: block;
-    width: 5.48rem;
+    width: 100%;
     height: 0.8rem;
     line-height: 0.8rem;
     background: linear-gradient(90deg, rgba(15, 224, 213, 1), rgba(12, 177, 254, 1));

@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="">
-            <div class="unit" v-for="(item,index) in list">
+            <div class="unit" v-for="(item,index) in list" :key="index">
                 <div class="number"></div>
                 <div class="borderbox">
                     <div class="logo" :class="{lxc:item.islxc,crj:item.iscrj}"></div>
@@ -62,8 +62,6 @@ export default {
             show1: false,
             text1: '数据加载中...',
             list: [],
-          
-
             imgurl: '',
             curitem: {},
 

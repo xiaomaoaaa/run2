@@ -22,3 +22,15 @@ require('assets/css/reset.css');
 	doc.addEventListener('DOMContentLoaded', recalc, false);
 	/*DOMContentLoaded文档加载完成不包含图片资源 onload包含图片资源*/
 })(document, window);
+const longbg = require("assets/images/longbg.jpg");
+const shortbg = require("assets/images/shortbg.jpg");
+if (screen.height / screen.width > 2) {
+	//用长图片给body做背景
+	document.body.style.background =
+	  "url('" + longbg + "') no-repeat center top";
+	document.body.style.backgroundSize = "100% auto";
+  } else {
+	document.body.style.background =
+	  "url('" + shortbg + "') no-repeat center top";
+	document.body.style.backgroundSize = "100% auto";
+  }

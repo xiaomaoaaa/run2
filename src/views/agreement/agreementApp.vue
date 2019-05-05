@@ -1,5 +1,5 @@
 <template>
-  <div>
+ 
     <div class="activetab">
       <ul class="tabmenu clearfix" :style="styleObject">
         <li
@@ -28,11 +28,11 @@
             <td>20</td>
           </tr>
           <tr>
-            <td>15周岁-50周岁（不含）</td>
+            <td>15岁-50周岁（不含）</td>
             <td>10</td>
           </tr>
           <tr>
-            <td>15周岁-50周岁（不含）</td>
+            <td>50周岁及以上</td>
             <td>20</td>
           </tr>
         </table>
@@ -51,7 +51,7 @@
         <p class="pb30">3. 本活动仅接受户外GPS良好环境下采集的正常数据（如遇恶劣天气情况除外），使用GPS定位记录毅行信息，请确保运动时您的GPS功能及定位权限正常开启，搭载交通工具、室内跑步机等产生的数据将被系统认定为配速异常，即无效里程。</p>
       </div>
     </div>
-  </div>
+
 </template>
 <script>
 import Lib from "assets/js/Lib";
@@ -95,7 +95,9 @@ export default {
       tabconhtml[index].style.display = "block";
     }
   },
-  mounted() {},
+  mounted() {
+
+  },
   watch: {}
 };
 </script>

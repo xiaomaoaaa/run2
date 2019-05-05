@@ -128,8 +128,6 @@
 import Lib from "assets/js/Lib";
 import { getcode, submitData } from "../../api/api.js";
 require("assets/css/run.css");
-const longbg = require("assets/images/longbg.jpg");
-const shortbg = require("assets/images/shortbg.jpg");
 function blurscrollToTop() {
   //兼容ios12以上的页面被键盘顶上去不滑下来
   const ua = navigator.userAgent;
@@ -210,7 +208,7 @@ export default {
       ],
 
       isvientlist: [["是", "否"]],
-      agelist: [["1-14", "14-45", "45+"]],
+      agelist: [["0-14", "15-50", "50+"]],
       homerelatelist: [["夫妻","父母", "子女", "兄弟姐妹", "其他"]],
       company: [],
       isvient: [],
@@ -333,7 +331,6 @@ export default {
           }
         }
       }
-      console.log(temarr);
       submitData({
         phoneNo: this.phoneNo,
         password: this.codeNo,
@@ -372,16 +369,7 @@ export default {
     }
   },
   mounted() {
-    if (screen.height / screen.width > 2) {
-      //用长图片给body做背景
-      document.body.style.background =
-        "url('" + longbg + "') no-repeat right center";
-      document.body.style.backgroundSize = "100% 100%";
-    } else {
-      document.body.style.background =
-        "url('" + shortbg + "') no-repeat right center";
-      document.body.style.backgroundSize = "100% 100%";
-    }
+    
   }
 };
 </script>
