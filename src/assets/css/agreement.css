@@ -56,7 +56,7 @@ table th {
     bottom: -0.01rem;
 }
 .tabcon {
-    padding: 0.5rem 0.48rem 0.5rem;
+    padding: 0.3rem 0.48rem 0rem;
     display: none;
 }
 
@@ -68,7 +68,7 @@ table th {
     font-size: 0.26rem;
 }
 .pb30{
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.2rem;
 }
 
 
@@ -95,4 +95,10 @@ table th {
 
 .tabcon h3 span, .tabcon p span {
     color: #0682eb;
+}
+.pb15{
+    padding-bottom: 0.15rem;
+}
+.pt15{
+    padding-top: 0.15rem;
 }

@@ -48,7 +48,13 @@ body {
     position: relative;
     font-size: 0.26rem;
 }
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .form .inputitem {
+        border-bottom: 0.5px solid #E5E5E5;
+      
+    } 
 
+}
 .form .inputitem3 {
     border-bottom: none;
 }
@@ -129,16 +135,20 @@ input::-webkit-input-placeholder {
     left: 0;
    
 } */
-
+.addpeoplecon{
+    padding-top:0.4rem; 
+}
 .addpeople {
     color: #3C4F5E;
     width: 1.66rem;
     height: 0.54rem;
-    border: 0.01rem solid #3C4F5E;
+    border: 1px solid #3C4F5E;
     border-radius: 0.27rem;
     display: block;
-    margin: 0.4rem auto 0;
-    background: none;
+    margin: 0 auto;
+    font-size: 0.26rem;
+    line-height: 0.54rem;
+    text-align: center;
 }
 
 .validcode {
@@ -212,7 +222,7 @@ input::-webkit-input-placeholder {
 
 .weui-cell__ft {
     background: url("../images/right.png") no-repeat right center;
-    background-size: 0.14rem 0.36rem;
+    background-size: 0.14rem 0.26rem;
     width: 0.46rem;
     height: 0.26rem;
 }

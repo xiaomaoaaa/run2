@@ -27,10 +27,10 @@ const shortbg = require("assets/images/shortbg.jpg");
 if (screen.height / screen.width > 2) {
 	//用长图片给body做背景
 	document.body.style.background =
-	  "url('" + longbg + "') no-repeat center top";
+	  "url('" + longbg + "') no-repeat center -80px";
 	document.body.style.backgroundSize = "100% auto";
   } else {
 	document.body.style.background =
-	  "url('" + shortbg + "') no-repeat center top";
+	  "url('" + shortbg + "') no-repeat center -60px";
 	document.body.style.backgroundSize = "100% auto";
   }

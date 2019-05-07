@@ -82,7 +82,6 @@
                       <span style="vertical-align:middle;">{{'家属'+(index+1)}}</span>
                     </span>
                   </template>
-                  <!-- <slot name="title">{{"家属+(index+1)"}}</slot> -->
                 </popup-picker>
               </group>
             </div>
@@ -110,9 +109,10 @@
           </div>
         </div>
       </div>
-      <button class="addpeople" @click="addhomepeople" v-show="isrelate">+添加家属</button>
+      <div class="addpeoplecon"><div class="addpeople" @click="addhomepeople" v-show="isrelate">+添加家属</div></div>
       <button class="subbtn" @click="submitData">报名</button>
-      <a class="signin" href>已报名手机号登录</a>
+      <a class="signin" href></a>
+      <!-- <a class="signin" href>已报名手机号登录</a> -->
     </div>
     <toast
       v-model="showPositionValue"
@@ -175,7 +175,7 @@ export default {
         [
           "集团（含小麦）",
           "海外投资事业部（含各地）",
-          "杭外（含A+）",
+          "杭外(含A+)",
           "游学（含各地）",
           "浙江分公司",
           "培优",

@@ -11,7 +11,7 @@
       <p>报名时间：即日起至2019年5月12日</p>
       <a class="subbtn" href="runregister.html">立即报名</a>
       <div class="foottext">
-         <a href="agreement.html">活动规则</a>punchrate
+         <a href="agreement.html">活动规则</a>
          <a href="punchrate.html">公司打卡率</a>
       </div>
     </div>

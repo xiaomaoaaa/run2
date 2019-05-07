@@ -15,3 +15,11 @@ export const submitData=(data) => {
     data: data
   })
 }
+//打卡率列表
+export const getratelist=() => {
+  return request({
+    url: "/apiRun/lx/selectUserApplyList",
+    method: 'post',
+  })
+}
+

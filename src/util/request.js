@@ -6,7 +6,6 @@ const domain = window.location.host
 const service = axios.create({
   baseURL:domain=="walk.shinyway.org"?"//":"/run/", //生产用的
   // baseURL: "/proxyapi/run/", // api的base_url
-  // baseURL: "http://10.10.11.9:8084/", // api的base_url  
   timeout: 15000, // 请求超时时间
   withCredentials: true, // 默认的
   headers: {
