@@ -13,7 +13,7 @@
     },
     "dependencies": {
         "accounting": "^0.4.1",
-        "axios": "^0.16.0",
+        "axios": "^0.19.0",
         "charenc": "0.0.2",
         "crypt": "0.0.2",
         "fastclick": "^1.0.6",
